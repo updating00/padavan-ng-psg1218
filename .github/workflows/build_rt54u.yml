@@ -47,7 +47,7 @@ jobs:
     - name: Clone source code
       run: |
         git clone https://github.com/chenxudong2020/RT-AC54U-For-K2.git /opt/asus
-        cd /opt/Ctools
+        cd /opt/Btools/Patch
         sh install_Patch.sh
          
     - name: Build Firmware
